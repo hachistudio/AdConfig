@@ -1,13 +1,5 @@
 {
   "version": "1.0",
-  "notification_config": {
-    "enable": false,
-    "hour": "8",
-    "minute": "0",
-    "interval_in_hour": 24,
-    "title": "❤Have a nice day!!",
-    "content": "Let's open Skin Tools and enjoy many beautiful skins <3"
-  },
   "ads_config": {
     "enable": true,
     "interval": 20
@@ -18,6 +10,9 @@
         {
           "ad_network": "max",
           "ad_unit": "2029c88f201f27b3"
+        },
+        {
+          "ad_network": "startio"
         }
       ]
     },
@@ -57,28 +52,66 @@
     "native_main": {
       "units": [
         {
-          "ad_network": "max",
-          "ad_unit": "3b679d7c05fae74e"
+          "ad_network": "fan",
+          "ad_unit": "567221927733768_567225961066698"
         },
         {
-          "ad_network": "startio"
+          "ad_network": "max",
+          "ad_unit": "3b679d7c05fae74e"
+        }
+      ]
+    },
+    "native_unzip": {
+      "units": [
+        {
+          "ad_network": "fan",
+          "ad_unit": "567221927733768_567226311066663"
+        },
+        {
+          "ad_network": "max",
+          "ad_unit": "6ef775182b6e126d"
+        }
+      ]
+    },
+    "native_home": {
+      "units": [
+        {
+          "ad_network": "fan",
+          "ad_unit": "567221927733768_567225961066698"
+        },
+        {
+          "ad_network": "max",
+          "ad_unit": "6ef775182b6e126d"
         }
       ]
     },
     "native_detail": {
       "units": [
         {
-          "ad_network": "max",
-          "ad_unit": "6ef775182b6e126d"
+          "ad_network": "fan",
+          "ad_unit": "567221927733768_567226311066663"
         },
         {
-          "ad_network": "startio"
+          "ad_network": "max",
+          "ad_unit": "3b679d7c05fae74e"
+        }
+      ]
+    },
+    "native_reset": {
+      "units": [
+        {
+          "ad_network": "fan",
+          "ad_unit": "567221927733768_576885250100769"
+        },
+        {
+          "ad_network": "max",
+          "ad_unit": "6ef775182b6e126d"
         }
       ]
     }
   },
   "app_version_config": {
-    "last_version": "1.6",
+    "last_version": "2.2",
     "force_update": false
   },
   "recommendation_apps": [
